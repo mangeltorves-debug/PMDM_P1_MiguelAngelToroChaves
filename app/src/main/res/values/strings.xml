@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pokédex</string>
+    <string name="title_detail">Datos del Pokémon</string>
+    <string name="label_first_game">Primer juego:</string>
+    <string name="label_form">Forma:</string>
+    <!-- Parámetro -->
+    <string name="format_pokedex_number">Número de Pokédex: %1$s</string>
+    <string name="btn_read_description">Leer Descripción</string>
+    <!-- String Array -->
+    <string-array name="pokemon_types">
+        <item>Planta</item>
+        <item>Fuego</item>
+        <item>Agua</item>
+        <item>Eléctrico</item>
+    </string-array>
+</resources>
