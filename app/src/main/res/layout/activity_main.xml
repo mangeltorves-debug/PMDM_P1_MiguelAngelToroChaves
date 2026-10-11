@@ -1,19 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/color_fondo_app"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        android:padding="@dimen/padding_pantalla"
+        android:gravity="center_horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- Cabecera con el Vector Asset y Título -->
+        <ImageView
+            android:id="@+id/ivIconoVector"
+            android:layout_width="@dimen/tamano_icono_vector"
+            android:layout_height="@dimen/tamano_icono_vector"
+            android:src="@drawable/ic_pokeball_vector"
+            android:contentDescription="@string/desc_icono_info"
+            app:tint="@color/color_primario_pokedex" />
+
+        <TextView
+            android:id="@+id/tvTituloApp"
+            style="@style/EstiloTituloPokedex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_ficha" />
+
+        <!-- Imagen Mapa de Bits (PNG) del Pokémon -->
+        <ImageView
+            android:id="@+id/ivPokemon"
+            android:layout_width="@dimen/tamano_imagen_pokemon"
+            android:layout_height="@dimen/tamano_imagen_pokemon"
+            android:layout_margin="@dimen/margen_pequeno"
+            android:src="@drawable/pokemon_bulbasaur"
+            android:contentDescription="@string/desc_img_pokemon" />
+
+        <!-- Nombre y Número del Pokémon -->
+        <TextView
+            android:id="@+id/tvNombrePokemon"
+            style="@style/EstiloTituloPokedex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pokemon_nombre" />
+
+        <TextView
+            android:id="@+id/tvNumeroPokedex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texto_subtitulo"
+            android:textColor="@color/color_secundario_pokedex"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margen_estandar"
+            android:text="@string/formato_numero_pokedex" />
+
+        <!-- Datos de Forma y Primer Juego (reutilizando EstiloTextoDescripcion) -->
+        <TextView
+            android:id="@+id/tvFormaPokemon"
+            style="@style/EstiloTextoDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_forma" />
+
+        <TextView
+            android:id="@+id/tvPrimerJuego"
+            style="@style/EstiloTextoDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_primer_juego" />
+
+        <!-- Selector (Spinner) que usa el string-array de formas -->
+        <Spinner
+            android:id="@+id/spFormas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margen_estandar"
+            android:entries="@array/formas_pokemon" />
+
+        <!-- Sección de Descripciones de la Pokédex -->
+        <TextView
+            android:id="@+id/tvSubtituloDescripciones"
+            style="@style/EstiloTituloPokedex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_descripciones" />
+
+        <TextView
+            android:id="@+id/tvDescripcionRojo"
+            style="@style/EstiloTextoDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_juego_rojo" />
+
+        <TextView
+            android:id="@+id/tvDescripcionOro"
+            style="@style/EstiloTextoDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_juego_oro" />
+
+        <!-- Botones (reutilizando EstiloBotonPokedex) -->
+        <Button
+            android:id="@+id/btnCambiarForma"
+            style="@style/EstiloBotonPokedex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_cambiar_forma" />
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            style="@style/EstiloBotonPokedex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_siguiente_pokemon" />
+
+    </LinearLayout>
+</ScrollView>
