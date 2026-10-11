@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_pantalla">16dp</dimen>
+    <dimen name="margen_estandar">12dp</dimen>
+    <dimen name="margen_pequeno">6dp</dimen>
+    <dimen name="tamano_imagen_pokemon">180dp</dimen>
+    <dimen name="tamano_icono_vector">32dp</dimen>
+    <dimen name="texto_titulo">26sp</dimen>
+    <dimen name="texto_subtitulo">18sp</dimen>
+    <dimen name="texto_cuerpo">15sp</dimen>
+</resources>

@@ -1,7 +1,9 @@
 <resources>
-    <color name="color_primario_pokedex">#EE1515</color> <!-- Rojo clásico -->
-    <color name="color_secundario_pokedex">#222224</color> <!-- Gris oscuro -->
-    <color name="color_fondo_app">#F2F2F2</color>
-    <color name="color_texto_principal">#000000</color>
-    <color name="color_borde_carta">#BDBDBD</color>
+    <color name="color_primario_pokedex">#EE1515</color>
+    <color name="color_secundario_pokedex">#222224</color>
+    <color name="color_fondo_app">#F5F5F5</color>
+    <color name="color_fondo_tarjeta">#FFFFFF</color>
+    <color name="color_texto_principal">#212121</color>
+    <color name="color_texto_secundario">#757575</color>
+    <color name="color_acento_planta">#4CAF50</color>
 </resources>
