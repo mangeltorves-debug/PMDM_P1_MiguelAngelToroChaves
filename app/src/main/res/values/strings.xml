@@ -1,16 +1,23 @@
 <resources>
-    <string name="app_name">Pokédex</string>
-    <string name="title_detail">Datos del Pokémon</string>
-    <string name="label_first_game">Primer juego:</string>
-    <string name="label_form">Forma:</string>
-    <!-- Parámetro -->
-    <string name="format_pokedex_number">Número de Pokédex: %1$s</string>
-    <string name="btn_read_description">Leer Descripción</string>
-    <!-- String Array -->
-    <string-array name="pokemon_types">
-        <item>Planta</item>
-        <item>Fuego</item>
-        <item>Agua</item>
-        <item>Eléctrico</item>
+    <string name="app_name">Pokédex Nacional</string>
+    <string name="titulo_ficha">Registro de la Pokédex</string>
+    <string name="pokemon_nombre">Bulbasaur</string>
+    <string name="formato_numero_pokedex">N.º de Pokédex: %1$s</string>
+    <string name="numero_ejemplo">#0001</string>
+    <string name="etiqueta_forma">Forma actual: Forma Normal (Kanto)</string>
+    <string name="etiqueta_primer_juego">Primera aparición: Pokémon Rojo y Azul (1996)</string>
+    <string name="titulo_descripciones">Entradas de la Pokédex por Edición</string>
+    <string name="desc_juego_rojo">Edición Rojo/Azul: Una rara semilla le fue plantada en el lomo al nacer. La planta brota y crece con este Pokémon.</string>
+    <string name="desc_juego_oro">Edición Oro/Plata: Lleva una semilla en el lomo desde que nace. A medida que crece, la semilla también se hace más grande.</string>
+    <string name="btn_cambiar_forma">Ver Forma Alternativa / Shiny</string>
+    <string name="btn_siguiente_pokemon">Siguiente Pokémon</string>
+    <string name="desc_img_pokemon">Ilustración oficial del Pokémon</string>
+    <string name="desc_icono_info">Icono vectorial de información</string>
+
+    <string-array name="formas_pokemon">
+        <item>Forma Normal</item>
+        <item>Forma Variocolor (Shiny)</item>
+        <item>Forma Regional</item>
+        <item>Megaevolución / Gigamax</item>
     </string-array>
 </resources>

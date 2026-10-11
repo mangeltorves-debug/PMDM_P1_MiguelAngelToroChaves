@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">National Pokédex</string>
+    <string name="titulo_ficha">Pokédex Entry Record</string>
+    <string name="pokemon_nombre">Bulbasaur</string>
+    <string name="formato_numero_pokedex">Pokédex No.: %1$s</string>
+    <string name="numero_ejemplo">#0001</string>
+    <string name="etiqueta_forma">Current Form: Normal Form (Kanto)</string>
+    <string name="etiqueta_primer_juego">First Appearance: Pokémon Red &amp; Blue (1996)</string>
+    <string name="titulo_descripciones">Pokédex Entries by Game Version</string>
+    <string name="desc_juego_rojo">Red/Blue Version: A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.</string>
+    <string name="desc_juego_oro">Gold/Silver Version: It carries a seed on its back right from birth. As it grows older, the seed also grows larger.</string>
+    <string name="btn_cambiar_forma">View Alternate / Shiny Form</string>
+    <string name="btn_siguiente_pokemon">Next Pokémon</string>
+    <string name="desc_img_pokemon">Official Pokémon artwork</string>
+    <string name="desc_icono_info">Vector information icon</string>
+
+    <string-array name="formas_pokemon">
+        <item>Normal Form</item>
+        <item>Shiny Form</item>
+        <item>Regional Form</item>
+        <item>Mega Evolution / Gigantamax</item>
+    </string-array>
+</resources>
