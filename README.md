@@ -11,14 +11,6 @@ El proyecto destaca por una gestión estricta de recursos en `res/`:
 - **Recursos gráficos optimizados:** Combinación de *Vector Assets* para iconografía e imágenes de mapa de bits (`.png`) para ilustraciones, junto con un icono adaptativo personalizado en `mipmap`.
 - **Estilos reutilizables:** Tema personalizado y estilos propios aplicados a títulos, tarjetas de texto y botones.
 
-##  Capturas de Pantalla
-
-### Ejecución en Español vs Inglés (Internacionalización)
-*(Sube aquí tus capturas arrastrándolas al editor de GitHub)*
-
-### Ejecución en Móvil (Pixel 7) y Tablet (Pixel Tablet)
-*(Sube aquí las capturas de ambos emuladores)*
-
 ##  Cómo ejecutar el proyecto
 1. Clona este repositorio en tu equipo:
    ```bash
