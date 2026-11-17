@@ -12,6 +12,4 @@ El proyecto destaca por una gestión estricta de recursos en `res/`:
 - **Estilos reutilizables:** Tema personalizado y estilos propios aplicados a títulos, tarjetas de texto y botones.
 
 ##  Cómo ejecutar el proyecto
-1. Clona este repositorio en tu equipo:
-   ```bash
-   git clone [https://github.com/TU_USUARIO/PMDM_P1_MiguelAngelToroChaves.git](https://github.com/TU_USUARIO/PMDM_P1_MiguelAngelToroChaves.git)
+1. Clona este repositorio en tu equipo
